@@ -6,6 +6,6 @@ describe "Restaurant controllers", ->
       scope = {}
       ctrl = $controller("PlaceIndexCtrl",
         $scope: scope
-        )
-        expect(scope.places.length).toBe 0
       )
+      expect(scope.places.length).toBe 0
+    )
