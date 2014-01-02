@@ -3,4 +3,7 @@
   $http.get('./places.json').success((data) ->
     $scope.places = data
   )
+
+  $scope.viewPlace = (id) ->
+    $location.url "/places/#{id}"
 ]
