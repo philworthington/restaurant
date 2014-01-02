@@ -4,7 +4,7 @@ By [Phil Worthington](https://github.com/philworthington).
 
 
 ## Description
-AngularJS + Rails 4 running on PosgreSQL.
+AngularJS + Rails 4 running on PosgreSQL. RSpec used for testing.
 
 
 ## Authors
